@@ -75,6 +75,7 @@
           const now = new Date();
           const timeString = now.toLocaleTimeString();
           document.getElementById('timeDisplay').textContent = timeString;
+          document.title = "Time: " + timeString; // Update the title
       }
 
       document.addEventListener('DOMContentLoaded', () => {
